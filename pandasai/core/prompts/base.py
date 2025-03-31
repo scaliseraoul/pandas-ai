@@ -1,4 +1,4 @@
-""" Base class to implement a new Prompt
+"""Base class to implement a new Prompt
 In order to better handle the instructions, this prompt module is written.
 """
 

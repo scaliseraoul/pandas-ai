@@ -1,4 +1,5 @@
-""" Memory class to store the conversations """
+"""Memory class to store the conversations"""
+
 from typing import Union
 
 
