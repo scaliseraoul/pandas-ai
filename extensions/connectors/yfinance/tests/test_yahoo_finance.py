@@ -27,9 +27,7 @@ class TestYahooFinanceLoader(unittest.TestCase):
 
         # Test data
         connection_info = {"ticker": "AAPL", "period": "1d"}
-        query = (
-            ""
-        )  # Since the query parameter is not used, we can leave it as an empty string
+        query = ""  # Since the query parameter is not used, we can leave it as an empty string
 
         # Call the function under test
         result = load_from_yahoo_finance(connection_info, query)

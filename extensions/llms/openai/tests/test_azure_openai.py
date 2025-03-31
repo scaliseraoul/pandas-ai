@@ -1,4 +1,5 @@
 """Unit tests for the openai LLM class"""
+
 import openai
 import pytest
 from pandasai_openai import AzureOpenAI
@@ -49,7 +50,7 @@ class TestAzureOpenAILLM:
                 azure_endpoint="test",
                 api_version="test",
                 deployment_name="test",
-                http_client=httpx.Client(verify=False)
+                http_client=httpx.Client(verify=False),
             ).type
             == "azure-openai"
         )

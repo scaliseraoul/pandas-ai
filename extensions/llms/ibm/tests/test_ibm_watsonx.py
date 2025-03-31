@@ -1,4 +1,5 @@
-""" Unit tests for the IBMwatsonx class. """
+"""Unit tests for the IBMwatsonx class."""
+
 import sys
 
 import pytest
